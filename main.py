@@ -31,3 +31,7 @@ print(newdict)
 
 #TODO 2. Create a list of the phonetic code words from a word that the user inputs.
 
+inp = input("Enter word: ")
+for letter in inp:
+    print(newdict[letter.upper()], end=' ')
+    
